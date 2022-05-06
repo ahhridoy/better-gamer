@@ -1,0 +1,38 @@
+[
+  {
+    "img": "./assets/bugra.png",
+    "flag": "https://bettergamer.com/assets/images/flags/English.png",
+    "logo": "./assets/challenger.png",
+    "company": "Bugra Y.",
+    "name": "Bugra",
+    "rating": 5,
+    "price": 25,
+    "des1": "High Challenger Coach",
+    "des2": "Got a lot of Students to Diamond 1+",
+    "des3": "Guaranteed Improvement"
+  },
+  {
+    "img": "./assets/vaske20.png",
+    "flag": "https://bettergamer.com/assets/images/flags/English.png",
+    "logo": "./assets/challenger.png",
+    "company": "Vasilije Bulajic",
+    "name": "vaske20",
+    "rating": 5,
+    "price": 20,
+    "des1": "Rank #1 Olaf and 1# Rammus world wide",
+    "des2": "Super friendly and engaging",
+    "des3": "Listens to your problems and finds solut"
+  },
+  {
+    "img": "./assets/kevin.jpg",
+    "flag": "https://bettergamer.com/assets/images/flags/English.png",
+    "logo": "./assets/challenger.png",
+    "company": "Piotr",
+    "name": "Kevin Sant",
+    "rating": 5,
+    "price": 39,
+    "des1": "Coach for 3 Years, Shotcaller, Leader",
+    "des2": "Learn How to Lead Bad Teammates, Carry",
+    "des3": "Fastest Way Towards Your Dream Elo"
+  }
+]

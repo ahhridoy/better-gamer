@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
+import Coaches from "../components/Coaches";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/pages/_landing.scss";
@@ -57,6 +58,10 @@ const LandingPage = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+
+      <section id="coaches">
+        <Coaches />
       </section>
 
       <section id="how-it-works">

@@ -2,20 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 const Footer = () => {
-  const data = [
-    {
-      img: "",
-      flag: "https://bettergamer.com/assets/images/flags/English.png",
-      logo: "",
-      company: "Bugra Y.",
-      name: "Bugra",
-      rating: 5,
-      price: 25,
-      des1: "High Challenger Coach",
-      des2: "Got a lot of Students to Diamond 1+",
-      des3: "Guaranteed Improvement",
-    },
-  ];
 
   return (
     <footer>
