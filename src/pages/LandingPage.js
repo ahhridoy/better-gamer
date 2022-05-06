@@ -25,12 +25,14 @@ const LandingPage = () => {
         <Container className="container">
           <Row>
             <Col md={6} xs={12}>
-              <img src="/assets/pick-your-title.png" alt="logo" />
-              <h2 className="text-light">Pick your game</h2>
-              <p className="text-light">
-                We provide coaching lessons for the most popular online games by
-                the best coaches available.
-              </p>
+              <div className="my-5">
+                <img src="/assets/pick-your-title.png" alt="logo" />
+                <h2 className="text-light">Pick your game</h2>
+                <p className="text-light">
+                  We provide coaching lessons for the most popular online games
+                  by the best coaches available.
+                </p>
+              </div>
               <img src="/assets/find-your-coach.png" alt="logo" />
               <h2 className="text-light">Find your coach</h2>
               <p className="text-light">
@@ -39,15 +41,19 @@ const LandingPage = () => {
               </p>
             </Col>
             <Col md={3} xs={12}>
-              <img src="/assets/arrow.png" alt="logo" />
+              <div className="my-5">
+                <img src="/assets/arrow.png" alt="logo" />
+              </div>
             </Col>
             <Col md={3} xs={12}>
+              <div className="my-5">
               <img src="/assets/become-a-pro.png" alt="logo" />
               <h2 className="text-light">Become a pro</h2>
               <p className="text-light">
                 Start your lessons with our coach to begin reaching your in-game
                 goals and become a professional player.
               </p>
+              </div>
             </Col>
           </Row>
         </Container>
@@ -57,8 +63,12 @@ const LandingPage = () => {
         <Container>
           <h1 className="text-light text-center mb-5">How it works</h1>
           <Row>
-            <Col md={6} xs={12}>
-              <img className="w-75" src="/assets/login.png" alt="" />
+            <Col md={6} xs={12} className="gx-5">
+              <img
+                className="w-100 border border-white"
+                src="/assets/login.png"
+                alt=""
+              />
             </Col>
             <Col md={6} xs={12} className="steps">
               <div className="text-light d-flex">
@@ -117,12 +127,12 @@ const LandingPage = () => {
       <section id="bettergamer">
         <Container>
           <Row>
-            <Col md={6} xs={12}>
+            <Col md={6} xs={12} className="gy-5">
               <div>
-                <img className="w-75" src="/assets/logo.png" alt="logo" />
+                <img className="w-100" src="/assets/content1.png" alt="logo" />
               </div>
             </Col>
-            <Col md={6} xs={12}>
+            <Col md={6} xs={12} className="gy-5">
               <div className="text-light">
                 <h3>Become the Better Gamer!</h3>
                 <p>
@@ -140,7 +150,7 @@ const LandingPage = () => {
                 </p>
               </div>
             </Col>
-            <Col md={6} xs={12}>
+            <Col md={6} xs={12} className="gy-5">
               <div className="text-light">
                 <h3>Our Professional Esport Players are ready to help you.</h3>
                 <p>
@@ -158,17 +168,17 @@ const LandingPage = () => {
                 </p>
               </div>
             </Col>
-            <Col md={6} xs={12}>
+            <Col md={6} xs={12} className="gy-5">
               <div>
-                <img className="w-75" src="/assets/concert.jpg" alt="logo" />
+                <img className="w-100" src="/assets/content2.png" alt="logo" />
               </div>
             </Col>
-            <Col md={6} xs={12}>
+            <Col md={6} xs={12} className="gy-5">
               <div>
-                <img className="w-75" src="/assets/anime.png" alt="logo" />
+                <img className="w-100" src="/assets/content3.png" alt="logo" />
               </div>
             </Col>
-            <Col md={6} xs={12}>
+            <Col md={6} xs={12} className="gy-5">
               <div className="text-light">
                 <h3>Become the Better Gamer!</h3>
                 <p>

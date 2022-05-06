@@ -1,7 +1,22 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Footer = () => {
+  const data = [
+    {
+      img: "",
+      flag: "https://bettergamer.com/assets/images/flags/English.png",
+      logo: "",
+      company: "Bugra Y.",
+      name: "Bugra",
+      rating: 5,
+      price: 25,
+      des1: "High Challenger Coach",
+      des2: "Got a lot of Students to Diamond 1+",
+      des3: "Guaranteed Improvement",
+    },
+  ];
+
   return (
     <footer>
       <Container>
@@ -71,14 +86,15 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        <hr className="text-light" />
         <div className="footer-description">
           <div>
             <img src="/assets/logo.png" alt="logo" />
             <p className="text-light">
-              © 2022 BetterGamer.com - All Rights Reserved <br /> 
-              Overwatch, Hearthstone, Heroes of the Storm, Starcraft 2, are trademarks
-              and/or registered trademarks of Blizzard Entertainment Inc.
-              Counter-Strike and Dota are trademarks and/or registered
+              © 2022 BetterGamer.com - All Rights Reserved <br />
+              Overwatch, Hearthstone, Heroes of the Storm, Starcraft 2, are
+              trademarks and/or registered trademarks of Blizzard Entertainment
+              Inc. Counter-Strike and Dota are trademarks and/or registered
               trademarks of the Valve Corporation. World of Tanks is a trademark
               and/or registered trademark of Wargaming.net. PLAYERUNKNOWN'S
               BATTLEGROUNDS is a registered trademark, trademark or service mark
@@ -91,10 +107,16 @@ const Footer = () => {
               registered trademarks of their respective owners. No endorsement
               is express or implied.
             </p>
-            <h4> <a href="#" className="me-4">Terms of use</a> <a href="#">Privacy Policy</a> </h4>
+            <h4>
+              {" "}
+              <a href="#" className="me-4">
+                Terms of use
+              </a>{" "}
+              <a href="#">Privacy Policy</a>{" "}
+            </h4>
           </div>
           <div>
-             <img src="/assets/payment.png" alt="" />
+            <img src="/assets/payment.png" alt="" />
           </div>
         </div>
       </Container>
