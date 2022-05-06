@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/pages/_landing.scss";
 
@@ -25,13 +26,13 @@ const LandingPage = () => {
           <Row>
             <Col md={6} xs={12}>
               <img src="/assets/pick-your-title.png" alt="logo" />
-              <h1 className="text-light">Pick your game</h1>
+              <h2 className="text-light">Pick your game</h2>
               <p className="text-light">
                 We provide coaching lessons for the most popular online games by
                 the best coaches available.
               </p>
               <img src="/assets/find-your-coach.png" alt="logo" />
-              <h1 className="text-light">Find your coach</h1>
+              <h2 className="text-light">Find your coach</h2>
               <p className="text-light">
                 With the help of our carefully engineered algorithm, we make it
                 easy for you to find your perfect coach.
@@ -42,7 +43,7 @@ const LandingPage = () => {
             </Col>
             <Col md={3} xs={12}>
               <img src="/assets/become-a-pro.png" alt="logo" />
-              <h1 className="text-light">Become a pro</h1>
+              <h2 className="text-light">Become a pro</h2>
               <p className="text-light">
                 Start your lessons with our coach to begin reaching your in-game
                 goals and become a professional player.
@@ -65,7 +66,7 @@ const LandingPage = () => {
                   <span className="number me-4">1</span>
                 </div>
                 <div>
-                  <h3>Create your Bettergamer account.</h3>
+                  <h4>Create your Bettergamer account.</h4>
                   <p>
                     Create your unique Bettergmer account to access all of our
                     features. The process is lightning quick, and it is the
@@ -79,10 +80,10 @@ const LandingPage = () => {
                   <span className="number me-4">2</span>
                 </div>
                 <div>
-                  <h3>
+                  <h4>
                     Select your game and use the algorithm to find your perfect
                     coach.
-                  </h3>
+                  </h4>
                   <p>
                     Choose your game, and you can start browsing its coaches.
                     Our easily accessible platform and the thoroughly-crafted
@@ -96,10 +97,10 @@ const LandingPage = () => {
                   <span className="number me-4">3</span>
                 </div>
                 <div>
-                  <h3>
+                  <h4>
                     Book your coach and start your journey as a professional
                     player.
-                  </h3>
+                  </h4>
                   <p>
                     After finishing the booking and the checkout process, you
                     will access the coach in our member's area. In your unique
@@ -187,6 +188,10 @@ const LandingPage = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+
+      <section id="footer">
+        <Footer />
       </section>
     </main>
   );
