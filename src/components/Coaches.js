@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Button } from "react-bootstrap";
 import Coach from "./Coach";
 
 const Coaches = () => {
@@ -20,6 +20,9 @@ const Coaches = () => {
             <Coach key={coach.name} coach={coach} />
           ))}
         </Row>
+        <div className="text-center my-5">
+          <Button variant="outline-primary">Show More</Button>
+        </div>
       </Container>
     </div>
   );
