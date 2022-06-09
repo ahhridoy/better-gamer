@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "img": "./assets/bugra.png",
     "flag": "https://bettergamer.com/assets/images/flags/English.png",
     "logo": "./assets/challenger.png",
@@ -12,6 +13,7 @@
     "des3": "Guaranteed Improvement"
   },
   {
+    "id": 2,
     "img": "./assets/vaske20.png",
     "flag": "https://bettergamer.com/assets/images/flags/English.png",
     "logo": "./assets/challenger.png",
@@ -24,6 +26,7 @@
     "des3": "Listens to your problems and finds solut"
   },
   {
+    "id": 2,
     "img": "./assets/kevin.jpg",
     "flag": "https://bettergamer.com/assets/images/flags/English.png",
     "logo": "./assets/challenger.png",

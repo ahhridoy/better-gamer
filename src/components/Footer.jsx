@@ -1,14 +1,13 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
-
   return (
     <footer>
       <Container>
         <h3 className="text-light">Games</h3>
-        <div className="footer-content">
-          <div>
+        <Row className="footer-content">
+          <Col md={4} xs={4}>
             <p>
               <a href="#">League of Legends</a>
             </p>
@@ -24,8 +23,8 @@ const Footer = () => {
             <p>
               <a href="#">Teamfight Tactics</a>
             </p>
-          </div>
-          <div>
+          </Col>
+          <Col md={4} xs={4}>
             <p>
               <a href="#">Rocket League</a>
             </p>
@@ -41,8 +40,8 @@ const Footer = () => {
             <p>
               <a href="#">Dota 2</a>
             </p>
-          </div>
-          <div>
+          </Col>
+          <Col md={4} xs={4}>
             <p>
               <a href="#">Rainbow Six Siege</a>
             </p>
@@ -52,31 +51,31 @@ const Footer = () => {
             <p>
               <a href="#">Destiny 2</a>
             </p>
-          </div>
-        </div>
+          </Col>
+        </Row>
         <h3 className="text-light">Contact</h3>
-        <div className="footer-link">
-          <div>
+        <Row className="footer-link">
+          <Col md={4} xs={4}>
             <p>
               <a href="#">bettergamerofficial</a>
             </p>
-          </div>
-          <div>
+          </Col>
+          <Col md={4} xs={4}>
             <p>
               <a href="#">bettergamer_official</a>
             </p>
-          </div>
-          <div>
+          </Col>
+          <Col md={4} xs={4}>
             <p>
               <a href="#">bettergamercom</a>
             </p>
-          </div>
-        </div>
+          </Col>
+        </Row>
         <hr className="text-light" />
         <div className="footer-description">
           <div>
             <img src="/assets/logo.png" alt="logo" />
-            <p className="text-light">
+            <p className="text-secondary">
               © 2022 BetterGamer.com - All Rights Reserved <br />
               Overwatch, Hearthstone, Heroes of the Storm, Starcraft 2, are
               trademarks and/or registered trademarks of Blizzard Entertainment

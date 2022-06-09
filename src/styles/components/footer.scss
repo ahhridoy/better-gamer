@@ -2,18 +2,12 @@
    margin-top: 100px;
    margin-bottom: 100px;
    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       a {
          text-decoration: none;
          color: white;
       }
    }
    .footer-link {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       a {
          text-decoration: none;
          color: white;
@@ -32,12 +26,6 @@
    @media screen and (max-width: 768px) {
       h3 {
          text-align: center;
-      }
-      .footer-content {
-         flex-direction: column;
-      }
-      .footer-link {
-         flex-direction: column;
       }
       .footer-description {
          flex-direction: column;

@@ -1,17 +1,11 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
-import Coaches from "../components/Coaches";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Coaches from "../../components/Coaches";
 import "../styles/pages/_landing.scss";
 
 const LandingPage = () => {
   return (
     <main>
-      <section id="navbar">
-        <Header />
-      </section>
-
       <section id="hero">
         <Container className="container">
           <div>
@@ -205,9 +199,7 @@ const LandingPage = () => {
         </Container>
       </section>
 
-      <section id="footer">
-        <Footer />
-      </section>
+      
     </main>
   );
 };
