@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 const Coach = ({ coach }) => {
   const { img, logo, company, name, price, des1, des2, des3 } = coach;
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       <Col md={4} xs={12}>
         <div className="text-light">
           <img src={img} alt="" />
@@ -25,7 +25,7 @@ const Coach = ({ coach }) => {
           <h2>${price}/hr</h2>
         </div>
       </Col>
-    </>
+    </div>
   );
 };
 

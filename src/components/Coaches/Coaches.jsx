@@ -1,11 +1,10 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Container, Row, Button } from "react-bootstrap";
-import Coach from "./Coach";
+import Coach from "../Coach/Coach";
 
 const Coaches = () => {
   const [coaches, setCoaches] = useState([]);
-
   useEffect(() => {
     axios.get("http://localhost:5000/coaches").then((res) => {
       setCoaches(res.data);
@@ -13,7 +12,7 @@ const Coaches = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <Container>
         <h1 className="text-light text-center my-5">Featured coaches</h1>
         <Row>

@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import "./_Footer.scss";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{ overflow: "hidden" }}>
       <Container>
         <h3 className="text-light">Games</h3>
         <Row className="footer-content">

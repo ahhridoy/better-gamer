@@ -12,8 +12,9 @@ const CoachDetails = () => {
       setCoach(res.data);
     });
   }, [id]);
+  
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <Container>
         <Row>
           <Col md={6} xs={12}>

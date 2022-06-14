@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 
 const CoachPage = ({ coach }) => {
   const { _id, img, logo, company, name, price, des1, des2, des3 } = coach;
+  
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       <Col md={4} xs={12}>
         <Link to={`/coachDetails/${_id}`}>
           <div className="text-light">
@@ -28,7 +29,7 @@ const CoachPage = ({ coach }) => {
           </div>
         </Link>
       </Col>
-    </>
+    </div>
   );
 };
 

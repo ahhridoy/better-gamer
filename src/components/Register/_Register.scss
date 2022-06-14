@@ -1,0 +1,19 @@
+#register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px;
+  .register-form {
+    max-width: 1100px;
+    margin: 0px auto;
+    .input-text {
+      max-width: 800px;
+      margin: 0px auto;
+    }
+    @media screen and (max-width: 768px) {
+      img {
+        display: none;
+      }
+    }
+  }
+}

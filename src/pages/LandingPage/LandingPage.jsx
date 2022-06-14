@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
-import Coaches from "../../components/Coaches";
-import "../../styles/pages/_landing.scss";
+import Coaches from "../../components/Coaches/Coaches";
+import "./_Landing.scss";
 
 const LandingPage = () => {
   return (
-    <main>
+    <main style={{ overflow: "hidden" }}>
       <section id="hero">
         <Container className="container">
           <div>
@@ -65,7 +65,7 @@ const LandingPage = () => {
             <Col md={6} xs={12} className="gx-5">
               <img
                 className="w-100 border border-white"
-                src="/assets/login.png"
+                src="/assets/login2.png"
                 alt=""
               />
             </Col>
