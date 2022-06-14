@@ -14,7 +14,7 @@ const CoachDetails = () => {
   }, [id]);
   
   return (
-    <div style={{ overflow: "hidden" }}>
+    <div>
       <Container>
         <Row>
           <Col md={6} xs={12}>

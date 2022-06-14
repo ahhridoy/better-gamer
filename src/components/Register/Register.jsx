@@ -5,7 +5,7 @@ import "./_Register.scss";
 
 const Register = () => {
   return (
-    <main id="register" style={{ overflow: "hidden" }}>
+    <main id="register">
       <Container>
         <div className="register-form">
           <div className="d-flex bg-white rounded">

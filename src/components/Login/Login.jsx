@@ -5,7 +5,7 @@ import "./_Login.scss";
 
 const Login = () => {
   return (
-    <main id="login" style={{overflow:"hidden"}}>
+    <main id="login">
       <Container>
         <div className="login-form">
           <div className="d-flex bg-white rounded">

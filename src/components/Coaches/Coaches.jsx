@@ -12,7 +12,7 @@ const Coaches = () => {
   }, []);
 
   return (
-    <div style={{ overflow: "hidden" }}>
+    <div>
       <Container>
         <h1 className="text-light text-center my-5">Featured coaches</h1>
         <Row>

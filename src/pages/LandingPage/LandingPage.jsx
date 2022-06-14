@@ -65,7 +65,7 @@ const LandingPage = () => {
             <Col md={6} xs={12} className="gx-5">
               <img
                 className="w-100 border border-white"
-                src="/assets/login2.png"
+                src="/assets/login-big.png"
                 alt=""
               />
             </Col>
