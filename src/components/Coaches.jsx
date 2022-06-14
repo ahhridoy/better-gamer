@@ -7,10 +7,11 @@ const Coaches = () => {
   const [coaches, setCoaches] = useState([]);
 
   useEffect(() => {
-    axios.get("./fakeData.json").then((res) => {
+    axios.get("http://localhost:5000/coaches").then((res) => {
       setCoaches(res.data);
     });
   }, []);
+
   return (
     <div>
       <Container>

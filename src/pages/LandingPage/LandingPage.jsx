@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
 import Coaches from "../../components/Coaches";
-import "../styles/pages/_landing.scss";
+import "../../styles/pages/_landing.scss";
 
 const LandingPage = () => {
   return (
@@ -42,12 +42,12 @@ const LandingPage = () => {
             </Col>
             <Col md={3} xs={12}>
               <div className="my-5">
-              <img src="/assets/become-a-pro.png" alt="logo" />
-              <h2 className="text-light">Become a pro</h2>
-              <p className="text-light">
-                Start your lessons with our coach to begin reaching your in-game
-                goals and become a professional player.
-              </p>
+                <img src="/assets/become-a-pro.png" alt="logo" />
+                <h2 className="text-light">Become a pro</h2>
+                <p className="text-light">
+                  Start your lessons with our coach to begin reaching your
+                  in-game goals and become a professional player.
+                </p>
               </div>
             </Col>
           </Row>
@@ -198,8 +198,6 @@ const LandingPage = () => {
           </Row>
         </Container>
       </section>
-
-      
     </main>
   );
 };

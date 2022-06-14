@@ -1,9 +1,8 @@
 [
   {
-    "id": 1,
-    "img": "./assets/bugra.png",
+    "img": "https://i.ibb.co/LP327jh/bugra.png",
     "flag": "https://bettergamer.com/assets/images/flags/English.png",
-    "logo": "./assets/challenger.png",
+    "logo": "https://i.ibb.co/TTnk2Py/challenger.png",
     "company": "Bugra Y.",
     "name": "Bugra",
     "rating": 5,
@@ -13,10 +12,9 @@
     "des3": "Guaranteed Improvement"
   },
   {
-    "id": 2,
-    "img": "./assets/vaske20.png",
+    "img": "https://i.ibb.co/nDG2s7F/vaske20.png",
     "flag": "https://bettergamer.com/assets/images/flags/English.png",
-    "logo": "./assets/challenger.png",
+    "logo": "https://i.ibb.co/TTnk2Py/challenger.png",
     "company": "Vasilije Bulajic",
     "name": "vaske20",
     "rating": 5,
@@ -26,10 +24,9 @@
     "des3": "Listens to your problems and finds solut"
   },
   {
-    "id": 2,
-    "img": "./assets/kevin.jpg",
+    "img": "https://i.ibb.co/thqwZZY/kevin.png",
     "flag": "https://bettergamer.com/assets/images/flags/English.png",
-    "logo": "./assets/challenger.png",
+    "logo": "https://i.ibb.co/TTnk2Py/challenger.png",
     "company": "Piotr",
     "name": "Kevin Sant",
     "rating": 5,
